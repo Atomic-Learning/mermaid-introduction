@@ -14,6 +14,7 @@
     ],
     "related": [
         "mermaid-nodes-links",
-        "mermaid-accessibility"
+        "mermaid-accessibility",
+        "atomic-learning-mermaid-diagrams"
     ]
 }
