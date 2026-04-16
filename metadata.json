@@ -1,22 +1,17 @@
 {
-    "title": "",
-    "slug": "",
-    "description": "",
+    "title": "Mermaid: Introduction",
+    "slug": "mermaid-introduction",
+    "description": "An introduction to the Mermaid diagramming library, which can be used for producing flowcharts in HTML, Markdown and documentation.",
     "authors": [
-        "",
-        ""
+        "chris-cooling"
     ],
     "tags": [
-        "",
-        ""
+        "mermaid",
+        "data-visualisation"
     ],
-    "duration": 0,
+    "duration": 2,
     "prerequisites": [
-        "",
-        ""
     ],
     "related": [
-        "",
-        ""
     ]
 }
