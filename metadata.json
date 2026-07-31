@@ -16,5 +16,6 @@
         "mermaid-nodes-links",
         "mermaid-accessibility",
         "atomic-learning-mermaid-diagrams"
-    ]
+    ],
+    "accessibility_candidate":true
 }
