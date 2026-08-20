@@ -1,0 +1,25 @@
+The [Mermaid library](https://mermaid.js.org/) is a powerful tool for creating diagrams, most often used for producing flowchart-like visualisations. The library itself is written in JavaScript and can be embedded in Markdown and HTML, and used across documentation workflows.
+
+# Example
+
+An example simple Mermaid diagram is shown below:
+
+```mermaid
+    flowchart TD
+        accTitle: A sample Mermaid diagram
+        accDescr: A flowchart showing how materials, labour and equipment feed into a production process, which then produces a finished product.
+        A[/Materials/] --> D([Production Process])
+        B[/Labour/] --> D
+        C[/Equipment/] --> D
+        D --> E[Finished Product]
+```
+
+# Specification
+
+The specification of a Mermaid diagram is through a text-based human-readable syntax. This syntax is rendered as a visual diagram by Mermaid-enabled tools. This makes the specification easy to write, store and edit in small files. This also means loading Mermaid diagrams over a network connection is efficient.
+
+Different contexts (for example Markdown and HTML) require different tooling and wrapper syntax around the same core Mermaid diagram specification.
+
+# Under the Hood
+
+For HTML implementations and most Markdown environments, Mermaid works by processing the text-based syntax and rendering it as an SVG element directly in the page.
